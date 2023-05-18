@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  h1{
+    margin-left: 15px;
+  }
   
   .topnav {
     overflow: hidden;
