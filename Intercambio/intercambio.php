@@ -248,7 +248,7 @@
 <footer class="text-body-secondary py-5">
   <div class="container">
     <p class="float-end mb-1">
-      <a href="#">عد إلى الأعلى</a>
+      <a href="#"></a>
     </p>
     <p class="mb-1"></p>
     <p class="mb-0"><a href="/"></a><a href="/docs/5.3/getting-started/introduction/ "></a>.</p>
