@@ -66,15 +66,15 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4>حول</h4>
-          <p class="text-body-secondary">أضف بعض المعلومات حول الألبوم، المؤلف، أو أي سياق خلفية آخر. اجعلها بضع جمل حتى يتمكن الزوار من التقاط بعض التلميحات المفيدة. ثم اربطها ببعض مواقع التواصل الاجتماعي أو معلومات الاتصال.</p>
+          <h4>حول</h4>ج
+          <p class="text-body-secondary"></p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
-          <h4>تواصل معي</h4>
+          <h4></h4>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">تابعني على تويتر</a></li>
-            <li><a href="#" class="text-white">شاركني الإعجاب في فيسبوك</a></li>
-            <li><a href="#" class="text-white">راسلني على البريد الإلكتروني</a></li>
+            <li><a href="#" class="text-white"></a></li>
+            <li><a href="#" class="text-white"></a></li>
+            <li><a href="#" class="text-white"></a></li>
           </ul>
         </div>
       </div>
@@ -98,11 +98,11 @@
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">مثال الألبوم</h1>
-        <p class="lead text-body-secondary">وصف قصير حول الألبوم أدناه (محتوياته ، ومنشؤه ، وما إلى ذلك). اجعله قصير ولطيف، ولكن ليست قصير جدًا حتى لا يتخطى الناس هذا الألبوم تمامًا.</p>
+        <h1 class="fw-light"></h1>
+        <p class="lead text-body-secondary"></p>
         <p>
-          <a href="#" class="btn btn-primary my-2">الدعوة الرئيسية للعمل</a>
-          <a href="#" class="btn btn-secondary my-2">عمل ثانوي</a>
+          <a href="#" class="btn btn-primary my-2"></a>
+          <a href="#" class="btn btn-secondary my-2"></a>
         </p>
       </div>
     </div>
@@ -115,14 +115,12 @@
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
-            <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+            <div class="card-body"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+        
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -131,13 +129,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+    
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -146,13 +143,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -162,13 +158,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -177,13 +172,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -192,13 +186,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -208,13 +201,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -223,13 +215,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+          
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -238,13 +229,12 @@
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
             <div class="card-body">
-              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+
                 </div>
-                <small class="text-body-secondary">9 دقائق</small>
+                <small class="text-body-secondary"></small>
               </div>
             </div>
           </div>
@@ -260,8 +250,8 @@
     <p class="float-end mb-1">
       <a href="#">عد إلى الأعلى</a>
     </p>
-    <p class="mb-1">مثال الألبوم هو © Bootstrap ، ولكن يرجى تنزيله وتخصيصه لنفسك!</p>
-    <p class="mb-0">جديد على Bootstrap؟ <a href="/"> تفضل بزيارة الصفحة الرئيسية </a> أو اقرأ <a href="/docs/5.3/getting-started/introduction/ "> دليل البدء </a>.</p>
+    <p class="mb-1"></p>
+    <p class="mb-0"><a href="/"></a><a href="/docs/5.3/getting-started/introduction/ "></a>.</p>
   </div>
 </footer>
 
