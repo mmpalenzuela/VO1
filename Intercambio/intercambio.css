@@ -247,9 +247,7 @@ text-align: center;
   }
    
   .cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    display:grid;
     margin: 0;
     padding: 0;
     width: 1000px;
