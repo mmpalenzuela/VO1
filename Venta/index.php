@@ -1,3 +1,16 @@
+<?php
+
+require 'config/venta.php';
+$db = new Database();
+$con = $db->conectar();
+
+$sql = $con->prepare("SELECT id, nombre, precio FROM productos WHERE activo=1");
+$sql->execute();
+$resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,12 +43,27 @@
 <ul class="cards">
   <li class="cards__item">
     <div class="card">
+    <?php foreach($resultado as $row) { ?>
       <div class="card__image card__image--fence"></div>
+      <?php
+
+        $id = $row['id'];
+        $imagen = "./imagenes/" . $id . "/bolis.jpg";
+
+        if(!file_exists($imagen)){
+          $imagen = "imagenes/LOGO WEB.png";
+        }
+
+      ?>
+      <img src="<?php echo $imagen; ?>">
       <div class="card__content">
+        <h5 class="card-title"><?php echo $row['nombre']; ?></h5>
+        <p class="card-text">$ <?php echo number_format($row['precio'], 2, '.', '.'); ?></p>
         <div class="card__title">Flex</div>
         <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
         <button class="btn btn--block card__btn">Button</button>
       </div>
+    <?php } ?>
     </div>
   </li>
   <li class="cards__item">
