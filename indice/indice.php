@@ -1,3 +1,18 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['usuario'])){
+        echo '
+            <script> 
+                alert("Por favor debes iniciar sesión");
+            </script>     
+        ';
+        header("location: index.php");
+        session_destroy();
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +31,7 @@
                 <a href="http://127.0.0.1:5500/Intercambio/intercambio.html">Intercambio</a>
                 <a href="http://127.0.0.1:5500/Venta/venta.html">Venta</a>
                 <a href="http://127.0.0.1:5500/Contacto/contacto.html">Contacto</a>
+                <a href="php/cerrar_sesion.php">Cerrar sesión</a>
             </div>
             <div class="header-right">
                 <a href="#login">Registrarse</a>
