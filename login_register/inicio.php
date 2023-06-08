@@ -43,7 +43,7 @@
                 <!--Formulario de Login y registro-->
                 <div class="contenedor__login-register">
                     <!--Login-->
-                    <form action="./php/login_usuario_be.php" method="POST" class="formulario__login">
+                    <form action="./login_register/php/login_usuario_be.php" method="POST" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
                         <input type="text" placeholder="Correo Electronico" name="correo">
                         <input type="password" placeholder="Contraseña" name="password">
@@ -51,7 +51,7 @@
                     </form>
 
                     <!--Register-->
-                    <form action="./php/registro_usuario_be.php" method="POST" class="formulario__register">
+                    <form action="./login_register/php/registro_usuario_be.php" method="POST" class="formulario__register">
                         <h2>Regístrarse</h2>
                         <input type="text" placeholder="Nombre completo" name="nombre_completo">
                         <input type="text" placeholder="Correo Electronico" name="correo">
