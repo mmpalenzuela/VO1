@@ -6,7 +6,7 @@
                 alert("Por favor debes iniciar sesión");
             </script>     
         ';
-        header("location: ../login_register/inicio.php");
+        header("location: ../login_register/cerrar_sesion.php");
         session_destroy();
         die();
     }
