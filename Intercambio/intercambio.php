@@ -1,16 +1,106 @@
-<?php
 
-require 'conf/database.php';
-$db = new Database();
-$con = $db->conectar();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Intercambios/Ventas</title>
+    <link rel="stylesheet" href="./intercambio.css">
+</head>
+<body>
+    <header> 
+     
+        <a href="#"><img src="./IMG/LOGO WEB.png"  class="logo" alt="logo" "></a>
+        <div class="header">
+            <div class="header-center">
+              <a href="http://127.0.0.1:5500/indice/indice.html">Home</a>
+                <a  class="active" href="http://127.0.0.1:5500/Intercambio/intercambio.html">Intercambio</a>
+                <a  href="http://127.0.0.1:5500/Venta/venta.html">Venta</a>
+                <a href="http://127.0.0.1:5500/Contacto/contacto.html">Contacto</a>
+            </div>
+            <div class="header-right">
+                <a href="#login">Registrarse</a>
+            </div>
+      </div>
+    </header>
 
-$sql = $con->prepare("SELECT id, nombre, precio FROM productos WHERE activo=1");
-$sql->execute();
-$resultado = $sql->fetchALL(PDO::Fetch_ASSOC);
+  <body>
+    
+  
+  
+<ul class="cards">
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--fence"></div>
+      <div class="card__content">
+        <div class="card__title">Flex</div>
+        <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+        <button class="btn btn--block card__btn" onclick="window.location.href='http://127.0.0.1:5500/Pagina-producto/pag-producto.html'" >Button</button>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--river"></div>
+      <div class="card__content">
+        <div class="card__title">Flex Grow</div>
+        <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+        <button class="btn btn--block card__btn" onclick="window.location.href='http://127.0.0.1:5500/Pagina-producto/pag-producto.html'" >Button</button>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--record"></div>
+      <div class="card__content">
+        <div class="card__title">Flex Shrink</div>
+        <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
+        <button class="btn btn--block card__btn" onclick="window.location.href='http://127.0.0.1:5500/Pagina-producto/pag-producto.html'" >Button</button>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--flowers"></div>
+      <div class="card__content">
+        <div class="card__title">Flex Basis</div>
+        <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
+        <button class="btn btn--block card__btn" onclick="window.location.href='http://127.0.0.1:5500/Pagina-producto/pag-producto.html'" >Button</button>
+      </div>
+    </div>
+  </li>
+</ul>
+<footer>
+      <div class="footer">
+        <div class="gird_container_footer">
+            <ul>
+              <p><b>Encuentranos Aqui</b></p>
+                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.904706028174!2d2.630234475911077!3d39.58429800588321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792897cb4adfd%3A0x2ae3087f5b4b21a2!2sIES%20Emili%20Darder!5e0!3m2!1ses!2ses!4v1685433820800!5m2!1ses!2ses" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </ul>
+              <ul class="links">
+                <p class="title-footer"><b>Contacto Directo</b></p>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png" alt="Avatar" class="avatar">Bruno Mayfiled</a></li>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png " alt="Avatar" class="avatar">Justin Ricard</a></li>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png " alt="Avatar" class="avatar">Pau Mir</a></li>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png " alt="Avatar" class="avatar">Miquel Mas</a></li>
+              </ul>
+              <ul class="links">
+                <p class="title-footer"><b>Contacto Directo</b></p>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png " alt="Avatar" class="avatar">Raul Palenzuela</a></li>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png" alt="Avatar" class="avatar">Tristan Jimenez</a></li>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png " alt="Avatar" class="avatar">Niki Stefanov</a></li>
+                <li class="ref."><a href="#"><img src="./IMG/LOGO WEB.png " alt="Avatar" class="avatar">Benjamín Pallarés</a></li>
+              </ul> 
+        </div>
+      </div>
+      
+        <div class="bottom-footer">
+        <p class="CopyRight">CopyRight 2023</p>
+      </div>
+  </footer>
 
-?>
-
-<?php foreach($resultado as $row){ ?>
-
-
-<?php } ?>
+</body>
+  </html>
+  

@@ -58,119 +58,8 @@ body {
     float: none;
   }
 }
-/* *********************************TOPNAV**********************************  */
-/* *********************************BANNER********************************* */
-.title_banner{
-    text-align: center;
-    padding: 100px;
-    font-weight: bolder;
-    font-size: 4rem;
-}
-.text_banner{
-    font-size: 30px;
-    font-weight: bolder;
-    text-decoration: none;
-    color: white; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-.banner{
-    width: 99.7%;
-    height: 700px;
-    border: 2px solid red;
-    margin: auto;
-    margin-top: 0.5%;
-    background-size: 100% 100%;
-    animation: banner 10s infinite;
-}
 
-@keyframes banner{
-    0%, 30%{
-        background-image: url(./IMG/IMG_5261.jpg);
-        opacity: 1;
-    }
-    31%, 34%{
-        opacity: 0.6;
-    }
-    35%, 65%{
-        background-image: url(./IMG/IMG_5262.jpg);
-        opacity: 1;
-    }
-    66%, 69%{
-        opacity: 0.6;
-    }
-    70%, 100%{
-        background-image: url(./IMG/IMG_5263.jpg);
-        opacity: 1;
-    }
-}
-/* *********************************BANNER********************************* */
-/* *********************************MAIN********************************* */
-
-/* *********************************BANNER_NOSOTROS********************************* */
-.banner_2{
-  box-shadow: 0 4px 8px 0 rgba(6, 43, 103, 0.2);
-  border-radius: 10px;
-  padding: 30px;
-  text-align: justify;
-  background-color: #f1f1f1;
-  color: rgb(0, 0, 0);
-  margin-top: 30px;
-}
-
-.banner_2:hover{
-  transform: translateY(-3px);
-  transition-duration: 1s;  
-}
-/* *********************************BANNER_NOSOTROS********************************* */
-
-.columna {
-  margin-top: 5%;
-  float: left;
-  width: 35%;
-  margin-bottom: 16px;
-  padding: 0 100px;
-  margin-left: 43px;
-}
-
-.bordes {
-  box-shadow: 0 4px 8px 0 rgba(6, 43, 103, 0.2);
-  border-radius: 15px;
-}
-
-.bordes:hover{
- 
-  box-shadow: 0 12px 16px 0 rgb(11, 146, 223, 0.2),0 17px 50px 0 rgba(11, 146, 223, 0.2);
-  transform: translateY(-20px);
-  transition-duration: 0.4s;
-
-}
-
-.container {
-  padding: 45px 30px;
-}
-
-.container::before, .fila::before {
-  content: "";
-  display: table;
-}
-
-.container::after, .fila::after {
-  content: "";
-  display: table;
-}
-
-.title_principal{
-text-align: center;
-}
-
-.title {
-  text-align: center;
-  color: grey;
-}
 
 .button {
   border: none;
@@ -189,7 +78,6 @@ text-align: center;
   transition-duration: 0.4s;
 }
 /* *********************************MAIN********************************* */
-/* *********************************FOOTER********************************* */
 
 /* *********************************FOOTER********************************* */
 
@@ -241,15 +129,15 @@ text-align: center;
   }
    
   .cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    flex-wrap: wrap-reverse;
     list-style: none;
-    margin-left: 25%;
     padding: 0;
   }
   
   .cards__item {
-    display: flex;
+    margin-left: 30%;
+    display:block;
     padding: 1rem;
     @media(min-width: 40rem) {
       width: 50%;
@@ -257,14 +145,14 @@ text-align: center;
     @media(min-width: 56rem) {
       width: 33.3333%;
     }
-  }
+ }
   
   .card {
     background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     overflow: hidden;
     &:hover {
       .card__image {
@@ -281,6 +169,7 @@ text-align: center;
   }
   
   .card__image {
+    text-align: left;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,4 +222,54 @@ text-align: center;
     margin-bottom: 1.25rem;
   }
   
-  
+  /* *********************************FOOTER********************************* */
+.footer{
+  margin-top: 35%;
+  padding: 40px 40px;
+  background-color: #d7ba15;
+  justify-content: center;
+
+}
+
+.gird_container_footer{
+  display: grid;
+  grid-template-areas:
+   'main bar-right bar-right';
+  gap: 10px;
+  padding: 10px;
+}
+   
+/* ***********************<ITEM1>************************** */
+.der{
+  grid-area: main;
+  margin-left: 50px;
+}
+
+/* ***********************</ITEM1>************************** */
+
+/* ***********************<ITEM2>************************** */
+.izq{
+grid-area: bar-right;
+}
+/* ***********************<ITEM2>************************** */
+.links{
+  list-style: none;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* **************<NAV_BOTTOM>**************** */   
+.bottom-footer{
+  padding: 10px 20px;
+  background-color: #43484b;
+  justify-content: center;
+}
+.CopyRight{
+  text-align: center;
+}
+/* *********************************FOOTER********************************* */
+

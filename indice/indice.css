@@ -232,7 +232,6 @@ grid-area: bar-right;
   height: 50px;
   border-radius: 50%;
 }
-/* *********************************FOOTER********************************* */
 
 /* **************<NAV_BOTTOM>**************** */   
 .bottom-footer{
@@ -243,6 +242,6 @@ grid-area: bar-right;
 .CopyRight{
   text-align: center;
 }
-
+/* *********************************FOOTER********************************* */
 
 
