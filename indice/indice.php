@@ -31,7 +31,7 @@
                 <a href="http://127.0.0.1:5500/Intercambio/intercambio.php">Intercambio</a>
                 <a href="http://127.0.0.1:5500/Venta/index.php">Venta</a>
                 <a href="http://127.0.0.1:5500/Contacto/contacto.php">Contacto</a>
-                <a href="../login_register/inicio.php">Cerrar sesión</a>
+                <a href="./login_register/inicio.php">Cerrar sesión</a>
             </div>
             <div class="header-right">
                 <a href="#login">Registrarse</a>
