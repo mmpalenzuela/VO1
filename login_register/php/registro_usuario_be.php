@@ -19,7 +19,7 @@
         echo '
         <script>
             alert("Este correo ya esta registrado, intenta con otro diferente");
-            window.location = "../index.php";
+            window.location = "../inicio.php";
         </script>
         ';
         mysqli_close($conexion);
@@ -33,7 +33,7 @@
         echo '
         <script>
             alert("Este usuario ya esta registrado, intenta con otro diferente");
-            window.location = "../index.php";
+            window.location = "../inicio.php";
         </script>
         ';
         mysqli_close($conexion);
@@ -46,7 +46,7 @@
         echo '
             <script>
             alert("Usuario registrado exsitosamente");
-            window.location = "../index.php";
+            window.location = "../../indice/indice.php";
             </script>
             ';
     }else{

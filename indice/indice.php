@@ -6,7 +6,7 @@
                 alert("Por favor debes iniciar sesión");
             </script>     
         ';
-        header("location: index.php");
+        header("location: ../login_register/cerrar_sesion.php");
         session_destroy();
         die();
     }
@@ -29,9 +29,9 @@
             <div class="header-center">
                 <a class="active" href="http://127.0.0.1:5500/indice/indice.html">Home</a>
                 <a href="http://127.0.0.1:5500/Intercambio/intercambio.html">Intercambio</a>
-                <a href="http://127.0.0.1:5500/Venta/venta.html">Venta</a>
+                <a href="http://127.0.0.1:5500/Venta/index.php">Venta</a>
                 <a href="http://127.0.0.1:5500/Contacto/contacto.html">Contacto</a>
-                <a href="php/cerrar_sesion.php">Cerrar sesión</a>
+                <a href="../login_register/inicio.php">Cerrar sesión</a>
             </div>
             <div class="header-right">
                 <a href="#login">Registrarse</a>
