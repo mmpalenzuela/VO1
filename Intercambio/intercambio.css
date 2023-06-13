@@ -333,5 +333,56 @@ text-align: center;
     line-height: 1.5;
     margin-bottom: 1.25rem;
   }
-  
+  /* *********************************FOOTER********************************* */
+.footer{
+  margin-top: 35%;
+  padding: 40px 40px;
+  background-color: #d7ba15;
+  justify-content: center;
+
+}
+
+.gird_container_footer{
+  display: grid;
+  grid-template-areas:
+   'main bar-right bar-right';
+  gap: 10px;
+  padding: 10px;
+}
+   
+/* ***********************<ITEM1>************************** */
+.der{
+  grid-area: main;
+  margin-left: 50px;
+}
+
+/* ***********************</ITEM1>************************** */
+
+/* ***********************<ITEM2>************************** */
+.izq{
+grid-area: bar-right;
+}
+/* ***********************<ITEM2>************************** */
+.links{
+  list-style: none;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* **************<NAV_BOTTOM>**************** */   
+.bottom-footer{
+  padding: 10px 20px;
+  background-color: #43484b;
+  justify-content: center;
+}
+.CopyRight{
+  text-align: center;
+}
+/* *********************************FOOTER********************************* */
+
+
   
