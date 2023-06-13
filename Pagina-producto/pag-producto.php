@@ -1,3 +1,19 @@
+<?php
+
+require 'config/database.php';
+$db = new Database();
+$con = $db->conectar();
+
+$sql = $con->prepare("SELECT id, nombre, precio FROM productos WHERE activo=1");
+$sql->execute();
+$resultado = $sql->fetchALL(PDO: :fetch_ASSOC);
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Intercambios/Ventas</title>
     <link rel="stylesheet" href="./pag-prod.css">
+    <link $sql = "SELECT * FROM `producto`;";>
 </head>
 <body>
     <header> 
