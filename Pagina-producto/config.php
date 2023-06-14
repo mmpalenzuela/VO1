@@ -11,8 +11,8 @@ class Database
        try{
         $conexion = "mysql:host=" . $this->hostname . "; dbname=". $this->database . "; charset=" . $this->charset;
         $option = [
-            PDO: :ATTR_ERRMODE => PDO: :ERRMODE_EXEPTION,
-            PDO: :ATTR_EMULATE_PREPARES => false 
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXEPTION,
+            PDO::ATTR_EMULATE_PREPARES => false 
         ];
 
         $pdo = new PDO($conexion, $this->$username, $options);

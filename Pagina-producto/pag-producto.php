@@ -1,12 +1,13 @@
 <?php
 
+require 'config/config.php';
 require 'config/database.php';
 $db = new Database();
 $con = $db->conectar();
 
 $sql = $con->prepare("SELECT id, nombre, precio FROM productos WHERE activo=1");
 $sql->execute();
-$resultado = $sql->fetchALL(PDO: :fetch_ASSOC);
+$resultado = $sql->fetchALL(PDO::FETCH_ASSOC);
 
 ?>
 
@@ -16,6 +17,7 @@ $resultado = $sql->fetchALL(PDO: :fetch_ASSOC);
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
