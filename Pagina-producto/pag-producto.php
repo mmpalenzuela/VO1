@@ -28,7 +28,7 @@ $resultado = $sql->fetchALL(PDO::FETCH_ASSOC);
 </head>
 <body>
     <header> 
-        <a href="#"><img src="./LOGO WEB.png"  class="logo" alt="logo" "></a>
+        <a href="#"><img src="./LOGO WEB.png"  class="logo" alt="logo" ></a>
         <div class="header">
             <div class="header-center">
                 <a href="http://127.0.0.1:5500/indice/indice.php">Home</a>
