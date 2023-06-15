@@ -12,10 +12,11 @@
         <a href="#"><img src="./LOGO WEB.png"  class="logo" alt="logo" "></a>
         <div class="header">
             <div class="header-center">
-                <a  href="http://127.0.0.1:5500/indice/indice.html">Home</a>
-                <a href="http://127.0.0.1:5500/Intercambio/intercambio.html">Intercambio</a>
-                <a href="http://127.0.0.1:5500/Venta/venta.html">Venta</a>
-                <a class="active" href="http://127.0.0.1:5500/Contacto/contacto.html">Contacto</a>
+            <a class="active" href="./indice.php">Home</a>
+                <a href="./intercambio.php">Intercambio</a>
+                <a href="./index.php">Venta</a>
+                <a href="./contacto.php">Contacto</a>
+                <a href="./login_register/inicio.php">Cerrar sesión</a>
             </div>
             <div class="header-right">
                 <a href="#login">Registrarse</a>
